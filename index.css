@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body {
+    background-image: url('img/Background.png');
+    padding: 30px 70px;
+    font-family: sans-serif;
+    color: #fff;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header .logo img {
+    width: 100px
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li{
+    padding-left: 50px;
+    line-height: 50px;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px
+}
+main .left-content {
+
+}
+main .right-content {
+    max-width: 150px
+}
